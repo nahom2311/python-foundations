@@ -1,25 +1,15 @@
-# Day 1 
+# Day 1
 
-##Types of python files 
+## Types of Python Files
 
-# 1 Numeric Types 
+# 1 Numeric Types
 
-#1a int; Just regular integer numbers (no decimal numbers)
-
+# 1a int: Just regular integer numbers (no decimal numbers)
 x = -5
+print("Value of x:", x)
+print("Type of x:", type(x))  # Output: <class 'int'>
 
-print(type(x))
-
-#1b float; Decimal numbers 
-
-y = 3.22 
-
-print(type(y))
-
-#1c complex; numbers and digits together
-
-z = 1j 
-
-print(type(z))
-
-# 2 
+# 1b float: Decimal numbers
+y = 3.22
+print("Value of y:", y)
+print("Type of y:", type(y))  # Output: <class 'float'>
